@@ -1,5 +1,7 @@
 # Hvordan installere discord.py
 
+Når du skal lage en bot i discord, er det viktig at du har en måte å kommunisere med discord, og discord.py er da en løsning. For å kunne bruke dette biblioteket må det først installeres.
+
 # Visual Studio Code
 [Last ned Visual Studio Code her](https://code.visualstudio.com/)
 
