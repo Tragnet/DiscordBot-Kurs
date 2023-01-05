@@ -3,4 +3,4 @@ Et lett kurs for hvordan man setter opp en Discord bot med et par eksempler av k
 
 Naviger guiden ved bruk av tabben slik vist under.
 
-![image](https://user-images.githubusercontent.com/40642234/210737521-d270c75f-a6b6-45ab-8cc4-ac434be22c8e.png)
+![image](https://user-images.githubusercontent.com/40642234/210737751-5721b2c6-8b9c-466d-991b-f6013e1cb73d.png)
