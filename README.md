@@ -30,7 +30,7 @@ For å gi botten rettigheter må du huke av på et par brytere. For å gjøre de
 
 ## Nøkkelen til botten din
 
-Når du oppretter en bot, er det viktig at du skriver ned ditt "Token" som er brukernavn og passord for botten. For nå, bare lagre nøkkelen i et tekstdokument fram til du får bruk for det.
+Når du oppretter en bot, er det viktig at du skriver ned ditt "Token" som er brukernavn og passord for botten. Inntil videre, bare lagre nøkkelen i et tekstdokument fram til du får bruk for det.
 
 ![image](https://user-images.githubusercontent.com/40642234/210755034-95589607-1fe4-47a1-88d1-d22317dfe8c8.png)
 
