@@ -3,6 +3,17 @@
 ## Visual Studio Code
 [Last ned Visual Studio Code her](https://code.visualstudio.com/)
 
+Etter du har laget deg en prosjektfil i VSCode er det ganske lett å installere bibliotek. Klikk den lille fliken som ser slik ut.
+
+![image](https://user-images.githubusercontent.com/40642234/210745078-143fcdea-55ed-48be-a843-2a46f8081497.png)
+
+Klikk deg deretter inn på "Terminal" fanen slik vist under og skriv inn ```pip install discord.py```.
+
+
+![image](https://user-images.githubusercontent.com/40642234/210744852-d5094f67-2c60-4cc9-bb7a-85f97717e4d1.png)
+
+Hvis alt er greit, vil du nå kunne ta i bruk bibiloteket discord.py i prosjektet ditt.
+
 
 ## PyCharm
 [Last ned PyCharm her](https://www.jetbrains.com/pycharm/download/)
