@@ -42,7 +42,7 @@ def check(bot, message):
     return prefix
 ```
 Dette er hvordan botten kan høre etter kommandoer. Denne formaten av kommandoer er ganske gammeldags sammenlignet med hva vi skal ta for oss i denne guiden, men det er greit å bruke begge.
-Du ser også en kodebit "on_ready():". Dette er kode som utføres med en gang botten er opp og kjører. Innenfor der har vi koden her:
+Du ser også en kodebit "on_ready():". Dette er kode som utføres med en gang botten er oppe og kjører. Innenfor der har vi koden her:
 ```py
 try:
         synced = await client.tree.sync()
@@ -50,7 +50,7 @@ try:
     except Exception as e:
         print(e)
 ```
-Dette gjør det mulig for oss å synkronisere "slash" kommandoene våre med discord, slik at de kan brukes. Dette er typen kommandoer vi skal hovedsakelig ta for oss i guiden her, da det er den nye standarden.
+Dette gjør det mulig for oss å synkronisere "slash"-kommandoene våre med discord, slik at de kan brukes. Dette er typen kommandoer vi skal hovedsakelig ta for oss i guiden her, da det er den nye standarden.
 
 > **Warning** 
 > Det er viktig at du alltid har "client.run(TOKEN)" på slutten av dokumentet ditt.
