@@ -1,7 +1,7 @@
 # Kjøre discord-botten
 
 For å kjøre din nyskapte bot, trenger vi litt Python-kode.
-Under har jeg skrevet en kort Python kode som lar deg kjøre botten på discord.
+Under har jeg skrevet en kort Python-kode som lar deg kjøre botten på discord.
 
 ```py
 import discord, asyncio
@@ -41,7 +41,7 @@ def check(bot, message):
         return prefix
     return prefix
 ```
-Dette er hvordan botten kan høre etter kommandoer. Denne formaten av kommandoer er ganske gammeldags sammenlignet med hva vi skal ta for oss i denne guiden, men det er greit å bruke begge.
+Dette er måten botten lytter etter kommandoer. Denne formaten av kommandoer er ganske gammeldags sammenlignet med hva vi skal ta for oss i denne guiden, men det er greit å bruke begge.
 Du ser også en kodebit "on_ready():". Dette er kode som utføres med en gang botten er oppe og kjører. Innenfor der har vi koden her:
 ```py
 try:
