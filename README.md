@@ -1,6 +1,6 @@
-# Kjøre discord botten
+# Kjøre discord-botten
 
-For å kjøre din nyskapte bot, trenger vi litt kode.
+For å kjøre din nyskapte bot, trenger vi litt Python-kode.
 Under har jeg skrevet en kort Python kode som lar deg kjøre botten på discord.
 
 ```py
@@ -34,7 +34,7 @@ Koden gjør ikke så mye av seg selv, den bare starter botten.
 
 Det som er viktig å notere seg fra denne koden er at "TOKEN" som da er nøkkelen til botten, må endres til den du lagret da du lagde deg botten i steg 1.2.
 
-I koden ovenfor er det en del som skjer, men kort fortalt sender den en kalling til discord for å kjøre botten. Du legger kanskje merke til biten 
+I koden ovenfor er det en del som skjer, men kort fortalt sender den et kall til discord for å kjøre botten. Du legger kanskje merke til biten 
 ```py
 def check(bot, message):
     if message.content.lower().startswith(prefix):
@@ -50,7 +50,7 @@ try:
     except Exception as e:
         print(e)
 ```
-Dette gjør det mulig for oss å synkronisere "slash" kommandoene våre med discord, slik at de kan brukes. Dette er typen kommandoer vi skal hovedsakelig ta for oss i guiden her, da det er den nye standaren.
+Dette gjør det mulig for oss å synkronisere "slash" kommandoene våre med discord, slik at de kan brukes. Dette er typen kommandoer vi skal hovedsakelig ta for oss i guiden her, da det er den nye standarden.
 
 > **Warning** 
 > Det er viktig at du alltid har "client.run(TOKEN)" på slutten av dokumentet ditt.
