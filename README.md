@@ -8,7 +8,7 @@ I dette eksemplet skal vi lage en enkel kommando som svarer med "pong" når komm
 
 ```py
 @client.tree.command(name="ping", description="Ping the bot")
-async def pingslash(interaction: discord.Interaction):
+async def ping(interaction: discord.Interaction):
     await interaction.response.send_message('Pong!', ephemeral=True)
 ```
 Denne kommandoen gjør slik at vi kan skrive "/ping" i serveren din mens botten kjører, noe som vil få botten til å svare med "Pong!".
@@ -67,7 +67,7 @@ async def ping(ctx):
     await ctx.reply('Pong!')
 
 @client.tree.command(name="ping", description="Ping the bot")
-async def pingslash(interaction: discord.Interaction):
+async def ping(interaction: discord.Interaction):
     await interaction.response.send_message('Pong!', ephemeral=True)
 
 
