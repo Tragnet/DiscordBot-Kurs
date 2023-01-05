@@ -25,7 +25,7 @@ Rett under boksene vil du da se en link. Kopier denne og lim den inn i søkefelt
 
 ![image](https://user-images.githubusercontent.com/40642234/210757234-4317c7d4-933e-404e-b890-ed3b04a20f1b.png)
 
-Velg serveren du opprettet og inviter. Botten er nå i serveren din!
+Velg serveren du opprettet [her](https://github.com/Tragnet/DiscordBot-Kurs/blob/1.3-Skrive-kode-for-%C3%A5-f%C3%A5-botten-til-%C3%A5-virke/README.md#opprette-en-discord-server)og inviter. Botten er nå i serveren din!
 
 
 
