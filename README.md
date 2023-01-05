@@ -1,4 +1,4 @@
-# Skrive kode for å ta i bruk botten
+# Få botten i serveren din
 
 ## Opprette en Discord server
 
