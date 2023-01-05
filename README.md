@@ -54,3 +54,4 @@ Dette gjør det mulig for oss å synkronisere "slash" kommandoene våre med disc
 
 > **Warning** 
 > Det er viktig at du alltid har "client.run(TOKEN)" på slutten av dokumentet ditt.
+> Noter at du også må endre verdien til TOKEN variablen til ditt eget token for at botten skal kunne kjøre
