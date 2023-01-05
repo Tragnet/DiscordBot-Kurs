@@ -5,7 +5,7 @@
 
 Etter du har laget deg en prosjektfil i VSCode er det ganske lett å installere bibliotek. Klikk den lille fliken som ser slik ut.
 
-![image](https://user-images.githubusercontent.com/40642234/210745078-143fcdea-55ed-48be-a843-2a46f8081497.png)
+![image](https://user-images.githubusercontent.com/40642234/210746477-665e605a-000f-470f-80a0-26226cf234df.png)
 
 Klikk deg deretter inn på "Terminal" fanen slik vist under og skriv inn ```pip install discord.py```.
 
