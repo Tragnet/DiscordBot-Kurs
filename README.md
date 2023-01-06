@@ -45,4 +45,4 @@ Når vi ikke oppfyller kravene for kommandoens sjekk vil vi få følgende result
 
 ![image](https://user-images.githubusercontent.com/40642234/210960156-3e143770-9d66-49c9-9973-0676d5debba3.png)
 
-
+Som du kan se sendes feilsjekkmeldingen vi lagde istedenfor det resultatet vi vanligvis forventet.
