@@ -1,4 +1,4 @@
-# Kurs-DiscordBot
+# Discord-bot Kurs
 Et lett kurs for hvordan man setter opp en Discord-bot med et par eksempler på kommandoer.
 
 Naviger kurset ved bruk av knappen under tittelen, som vist under.
