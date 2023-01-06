@@ -36,7 +36,7 @@ Når vi skal ta i bruk dette i kommandoene våre, bruker vi en sjekk for å se o
 ```py
 @client.tree.command(name="ping", description="Ping the bot")
 @app_commands.checks.cooldown(1, 10, key=lambda i: (i.user.id))
-async def pingslash(interaction: discord.Interaction):
+async def ping(interaction: discord.Interaction):
     await interaction.response.send_message(embed=makeEmbed('Pong!', colour=4895220), ephemeral=True)
 ```
 Her har vi lagt inn en cooldown sjekk. Den ser etter hvor mange ganger kommandoen har blitt brukt innenfor en tidsperiode, hvor lang nedkjølingsperioden er og hvor sjekken skal være gyldig. I dette tilfellet har hver bruker en kommando hvert tiende sekund. Vi kan også legge inn en sjekk for hver kanal eller hele serveren.
