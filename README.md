@@ -1,4 +1,4 @@
-# Formattering av tid
+# Formatering av tid
 
 Noen ganger vil vi ha nedkjølingsperioder på kommandoer. For å gjøre dette lett lesbart for brukeren trenger vi en ny funksjon.
 ```py
