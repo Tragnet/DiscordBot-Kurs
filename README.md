@@ -25,7 +25,7 @@ I eksemplet under har jeg fornyet ping-kommandoen vi lagde i forrige steg.
 
 ```py
 @client.tree.command(name="ping", description="Ping the bot")
-async def pingslash(interaction: discord.Interaction):
+async def ping(interaction: discord.Interaction):
     await interaction.response.send_message(embed=makeEmbed('Pong!', colour=4895220), ephemeral=True)
 ```
 Her har vi definert at meldingen skal bli vist som en embed, og vil ha en farge med verdi 4895220 (48 rød, 95 grønn, 220 blå). Den vil se slik ut.
