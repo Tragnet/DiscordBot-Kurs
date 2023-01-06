@@ -1,12 +1,15 @@
-import asyncio, discord, random
+import discord, asyncio
 
 from discord import app_commands
 from discord.ext import commands
 
-#Token
-TOKEN = "Gå til side for hvordan lage discord BOT bruker og sett inn token her"
+TOKEN ="Gå til side for hvordan lage discord BOT bruker og sett inn token her"
+prefix = "!"
+def check(bot, message):
+    if message.content.lower().startswith(prefix):
+        return prefix
+    return prefix
 
-#Embed
 def makeEmbed(title = "", desc = "", image = "", footer = "", colour = None, thumb=""):
     if colour != None:
         e = discord.Embed(title=title, description=desc, colour=colour)
@@ -19,33 +22,8 @@ def makeEmbed(title = "", desc = "", image = "", footer = "", colour = None, thu
     if footer != None:
         e.set_footer(text=footer)
     return e
-intents = discord.Intents.all()
-client = commands.AutoShardedBot(check, intents=intents,)
 
-looping = False
-
-#Startup logging
-@client.event
-async def on_ready():
-    global looping
-    print("All shards ready")
-    print("Checking for restart message..")
-    try:
-        synced = await client.tree.sync()
-        print(f"Synced {len(synced)} command(s)")
-    except Exception as e:
-        print(e)
-    if not looping:
-        looping = True
-    print("Process started")
-    await client.change_presence(status=discord.Status.online, activity=discord.Game("being held hostage by devs")))
-    
-@client.event
-async def on_shard_ready(id):
-    print("Shard {0} ready".format(id))
- 
-#Formattering for å gjøre tid mer leselig
-def readableTime(seconds):
+def timeFormat(seconds):
     m, s = divmod(seconds, 60)
     h, m = divmod(m, 60)
     s = round(s, 2)
@@ -57,25 +35,40 @@ def readableTime(seconds):
     if s != 0:
         msg = msg+" {0}s".format(s)
     return msg[1:]
-  
-#Errorhandling for slash kommandoer
+
+intents = discord.Intents.all()
+client = commands.AutoShardedBot(check, intents=intents)
+
+@client.event
+async def on_ready():
+    try:
+        synced = await client.tree.sync()
+        print(f"Synced {len(synced)} command(s)")
+    except Exception as e:
+        print(e)
+    print("Bot is ready!")
+
+
 @client.tree.error
 async def on_app_command_error(interaction: discord.Interaction, error: app_commands.AppCommandError):
     if isinstance(error, app_commands.CommandOnCooldown):
-        msg = readableTime(error.retry_after)
-        msg2 = readableTime(error.cooldown.per)
-        await interaction.response.send_message(embed=makeEmbed(random.choice(["????", "Not a command", "Try something else", "No."]),
-                                       "Try again in {0}. This command has a {1} cooldown.".format(msg, msg2), colour=15746887), ephemeral=True)
+        msg = timeFormat(error.retry_after)
+        msg2 = timeFormat(error.cooldown.per)
+        await interaction.response.send_message(embed=makeEmbed("something is not right", "Try again in {0}. This command has a {1} cooldown.".format(msg, msg2), colour=15746887), ephemeral=True)
     else:
         raise error
-  
-#Første kommando
-@client.tree.command(name="ping", description="Ping the bot to see how long it takes for the server to respond!")
+
+
+@client.tree.command(name="ping", description="Ping the bot")
 @app_commands.checks.cooldown(1, 10, key=lambda i: (i.user.id))
-async def pingslash(interaction: discord.Interaction):
-    await interaction.response.send_message(embed=makeEmbed(f'Pong! In `{round(client.latency * 1000)}ms`', colour=4895220), ephemeral=True)
-    await ctx.reply(embed=makeEmbed(f'Pong! In `{round(client.latency * 1000)}ms`', colour=4895220))
-    
-    
-    
+async def ping(interaction: discord.Interaction):
+    await interaction.response.send_message(embed=makeEmbed('Pong!', colour=4895220), ephemeral=True)
+
+@client.command(name="ping")
+async def ping(ctx):
+    await ctx.reply('Pong!')
+
 client.run(TOKEN)
+
+
+
