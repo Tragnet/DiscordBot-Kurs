@@ -21,7 +21,7 @@ Gå til siden vist under, og huk av "bot" og "administrator" som vist. Dette er 
 
 ![image](https://user-images.githubusercontent.com/40642234/210756984-aec49de0-13c9-412a-a056-c6baa90b7950.png)
 
-Rett under boksene kommer det en link. Kopier denne og lim den inn i søkefeltet ditt for å få spørsmål om å invitere botten til serveren din.
+Rett under boksene kommer det en link. Kopier denne og lim den inn i søkefeltet i søkemotoren din for å få spørsmål om å invitere botten til serveren din.
 
 ![image](https://user-images.githubusercontent.com/40642234/210757234-4317c7d4-933e-404e-b890-ed3b04a20f1b.png)
 
