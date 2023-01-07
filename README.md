@@ -1,13 +1,32 @@
-# Discord-bot Kurs
-Et lett kurs for hvordan man setter opp en Discord-bot med et par eksempler på kommandoer.
+# Utfordring
 
-Naviger kurset ved bruk av knappen under tittelen, som vist under.
- 
-![image](https://user-images.githubusercontent.com/40642234/210737751-5721b2c6-8b9c-466d-991b-f6013e1cb73d.png)
+Nå som du har lært deg en god del grunnleggende kunnskap om hvordan du kan lage en discord-bot, har jeg en siste utfordring til deg. I denne oppgaven skal du prøve å lage en kommando som sender en embed melding med et bilde av en katt. Under vil du se resultatet du burde prøve å få til.
 
-Gjennom dette kurset vil du få grunnleggende kunnskap om hvordan en discord-bot virker, samt hvordan du kan utvikle egne funksjoner i dine egne discord-botter.
-Når du har gjennomført kurset vil du også kunne gjøre deg fortjent til en "Active Developer"-knapp som fremheves på profilen din.
+![bilde](https://user-images.githubusercontent.com/40642234/211124833-8c485ff9-bb27-461e-847c-3b848b41fb7a.png)
 
-![image](https://user-images.githubusercontent.com/40642234/210771034-0b47300e-259d-4562-af1b-1ecebf75bce1.png)
 
-[Mer om Active Developer-knappen](https://support-dev.discord.com/hc/en-us/articles/10113997751447)
+
+Under finner du en link til bildet jeg har brukt. Gjerne bruk dette når du prøver utfordringen!
+
+https://user-images.githubusercontent.com/40642234/211124873-20632720-555d-4d66-8664-d2034c678d8b.png
+
+<details>
+    <summary>Løsningsforslag</summary>
+    
+```py
+@client.tree.command(name="cat", description="Sends a picture of a cat")
+async def cat(interaction: discord.Interaction):
+    await interaction.response.send_message(embed=makeEmbed('Have a cat!',
+                                                            'meow',
+                                                            image="https://user-images.githubusercontent.com/40642234/211124873-20632720-555d-4d66-8664-d2034c678d8b.png",
+                                                            footer='Your cat is kinda wonky ngl'))
+                                                           
+```
+
+</details>
+
+
+# For lett?
+
+
+
