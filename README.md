@@ -17,7 +17,7 @@ def timeFormat(seconds):
 ```
 Funksjonen her tar i mot sekunder som en verdi og konverterer den til et lesbart format slik at isteden for 121s vil vi få tilbake 2m 1s.
 
-Alene vil dette ikke gjøre mye, så vi trenger en måte å behandle kommandoer som ikke regnes som gyldig (I dette tilfeldet at den har en nedkjølingsperiode som ikke er ferdig)
+Alene vil dette ikke gjøre mye, så vi trenger en måte å behandle kommandoer som ikke regnes som gyldig (I dette tilfellet at den har en nedkjølingsperiode som ikke er ferdig)
 For å behandle disse errorene kan vi legge inn denne koden
 
 ```py
