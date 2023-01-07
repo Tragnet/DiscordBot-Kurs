@@ -28,5 +28,8 @@ async def cat(interaction: discord.Interaction):
 
 # For lett?
 
-
+Hvis du syns denne oppgaven blir for lett, kan du prøve å lage en liste med flere bilder som sender tilfeldige bilder hver gang kommandoen kjøres.
+Du kan også ta i bruk en [API (cataas.com)](https://cataas.com/#/) for denne oppgaven.
+>**Note**
+> Det kan være lurt å ta i bruk "Random" biblioteket for denne oppgaven. Dette biblioteket er innebygd i Python installasjonen din så du trenger bare å importere det.
 
