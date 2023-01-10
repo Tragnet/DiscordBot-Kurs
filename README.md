@@ -65,7 +65,7 @@ def check(bot, message):
         return prefix
     return prefix
 
-def makeEmbed(title = "", desc = "", image = "", footer = "", colour = None, thumb=""):
+def makeEmbed(title = "", desc = "", image = None, footer = "", colour = None, thumb = None):
     if colour != None:
         e = discord.Embed(title=title, description=desc, colour=colour)
     else:
