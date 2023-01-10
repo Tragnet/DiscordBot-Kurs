@@ -57,4 +57,4 @@ Dette gjør det mulig for oss å synkronisere "slash"-kommandoene våre med disc
 > Noter at du også må endre verdien til TOKEN variablen til ditt eget token for at botten skal kunne kjøre
 
 
-[![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.5-F%C3%B8rste-kommando)
+[![image](https://img.shields.io/badge/back-Forrige%20Side-red?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.3-Invitere-botten-til-serveren-din)    [![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.5-F%C3%B8rste-kommando)
