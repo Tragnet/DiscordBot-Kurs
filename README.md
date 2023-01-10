@@ -74,5 +74,5 @@ async def ping(interaction: discord.Interaction):
 client.run(TOKEN)
 ```
 
-[![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.6-Stilering-av-meldinger-med-embeds)
+[![image](https://img.shields.io/badge/back-Forrige%20Side-red?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.4-Kj%C3%B8re-botten)    [![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.6-Stilering-av-meldinger-med-embeds)
 
