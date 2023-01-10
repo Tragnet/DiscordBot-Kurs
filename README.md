@@ -45,8 +45,7 @@ meowzers = [
     "https://user-images.githubusercontent.com/40642234/211551741-5f5b172f-c7cb-4bd7-ab81-0c3027d4fbd8.png",
     "https://user-images.githubusercontent.com/40642234/211551863-16324790-e2d0-4b6a-acf6-4853baf04b24.png",
     "https://user-images.githubusercontent.com/40642234/211551969-b439297d-754f-430c-89e1-84657792de00.png",
-    "https://user-images.githubusercontent.com/40642234/211552041-9c4a41fb-2ad4-407f-8703-446cc8346a12.png"
-]
+    "https://user-images.githubusercontent.com/40642234/211552041-9c4a41fb-2ad4-407f-8703-446cc8346a12.png"]
 meowzerFooterText = [
     "meow",
     "this is indeed a cat",
@@ -57,8 +56,8 @@ meowzerFooterText = [
 ]
 @client.tree.command(name="cat", description="Sends a picture of a cat")
 async def cat(interaction: discord.Interaction):
-    await interaction.response.send_message(embed=makeEmbed('Have a cat!',
-                                                            'meow',
+    await interaction.response.send_message(embed=makeEmbed(title='Have a cat!',
+                                                            desc='meow',
                                                             image=random.choice(meowzers),
                                                             footer=random.choice(meowzerFooterText)))
                                                            
