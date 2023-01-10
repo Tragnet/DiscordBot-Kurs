@@ -3,7 +3,7 @@
 Når har vi fått til å sende en kommando som gir oss et svar. Dette er greit nok men det ser ganske kjedelig. Med discord embeds kan vi stilere meldinger for å gjøre de mer attraktive. For å gjøre dette lett å ta bruk av, har jeg laget en funksjon som kan brukes for å generere embeds.
 
 ```py
-def makeEmbed(title = "", desc = "", image = None, footer = "", colour = None, thumb=None):
+def makeEmbed(title = "", desc = "", image = None, footer = "", colour = None, thumb = None):
     if colour != None:
         e = discord.Embed(title=title, description=desc, colour=colour)
     else:
