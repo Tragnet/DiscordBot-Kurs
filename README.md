@@ -33,4 +33,4 @@ Når du har gjort det kommer det opp et vindu som ser slik ut. Skriv inn "discor
 
 Deretter klikker du "Install"-knappen. Etter biblioteket har blitt installert kan du fritt ta i bruk Discord.py-biblioteket innenfor prosjektet ditt.
 
-[![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.2-Oprette-Discord-Bot)
+[![image](https://img.shields.io/badge/back-Forrige%20Side-red?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/main)    [![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.2-Oprette-Discord-Bot)
