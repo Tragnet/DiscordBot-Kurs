@@ -4,7 +4,7 @@ For å kjøre din nyskapte bot, trenger vi litt Python-kode.
 Under har jeg skrevet en kort Python-kode som lar deg kjøre botten på discord. Hvis du ikke allerede har det, lag en python-fil i ditt valg av editor og lim inn koden under.
 
 ```py
-import discord, asyncio
+import discord, random
 
 from discord import app_commands
 from discord.ext import commands
