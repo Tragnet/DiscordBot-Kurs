@@ -38,7 +38,7 @@ Som du ser er dette nesten identisk slash-kommandoen men i kode skrives de litt 
 Hvis du har noen problemer med koden din så langt kan du kopiere koden her for å sikre deg at alt er korrekt.
 > **Warning** Husk å endre TOKEN variablen til ditt eget token!
 ```py
-import discord, asyncio
+import discord, random
 
 from discord import app_commands
 from discord.ext import commands
