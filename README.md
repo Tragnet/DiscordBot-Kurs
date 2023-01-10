@@ -38,4 +38,4 @@ Vi har også andre verdier vi kan endre, da gjør du bare som vi gjorde med "col
 > Noen av verdiene krever en URL mens andre krever en tekstverdi.
 
 
-[![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.7-Nedkj%C3%B8ling-av-kommandoer)
+[![image](https://img.shields.io/badge/back-Forrige%20Side-red?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.5-F%C3%B8rste-kommando)    [![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.7-Nedkj%C3%B8ling-av-kommandoer)
