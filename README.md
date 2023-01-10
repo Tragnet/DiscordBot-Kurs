@@ -35,6 +35,6 @@ Når du oppretter en bot, er det viktig at du skriver ned ditt "Token" som er br
 ![image](https://user-images.githubusercontent.com/40642234/210755034-95589607-1fe4-47a1-88d1-d22317dfe8c8.png)
 
 
-[![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.3-Invitere-botten-til-serveren-din)
+[![image](https://img.shields.io/badge/back-Forrige%20Side-red?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.1-Installere-discord.py)    [![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.3-Invitere-botten-til-serveren-din)
 
 
