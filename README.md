@@ -29,3 +29,4 @@ Velg serveren du opprettet [her](https://github.com/Tragnet/DiscordBot-Kurs/blob
 
 
 
+[![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.4-Kj%C3%B8re-botten)
