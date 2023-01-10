@@ -53,7 +53,7 @@ Som du kan se sendes feilsjekkmeldingen vi lagde istedenfor det resultatet vi va
 Her er koden så langt om du har noen problemer. 
 
 ```py
-import discord, asyncio
+import discord, random
 
 from discord import app_commands
 from discord.ext import commands
