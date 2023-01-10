@@ -36,3 +36,6 @@ Vi har også andre verdier vi kan endre, da gjør du bare som vi gjorde med "col
 
 > **Note** 
 > Noen av verdiene krever en URL mens andre krever en tekstverdi.
+
+
+[![image](https://img.shields.io/badge/next-Neste%20Side-green?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.7-Nedkj%C3%B8ling-av-kommandoer)
