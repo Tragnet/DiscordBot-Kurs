@@ -3,7 +3,7 @@
 Når har vi fått til å sende en kommando som gir oss et svar. Dette er greit nok men det ser ganske kjedelig. Med discord embeds kan vi stilere meldinger for å gjøre de mer attraktive. For å gjøre dette lett å ta bruk av, har jeg laget en funksjon som kan brukes for å generere embeds.
 
 ```py
-def makeEmbed(title = "", desc = "", image = "", footer = "", colour = None, thumb=""):
+def makeEmbed(title = "", desc = "", image = None, footer = "", colour = None, thumb=None):
     if colour != None:
         e = discord.Embed(title=title, description=desc, colour=colour)
     else:
@@ -26,7 +26,7 @@ I eksemplet under har jeg fornyet ping-kommandoen vi lagde i forrige steg.
 ```py
 @client.tree.command(name="ping", description="Ping the bot")
 async def ping(interaction: discord.Interaction):
-    await interaction.response.send_message(embed=makeEmbed('Pong!', colour=4895220), ephemeral=True)
+    await interaction.response.send_message(embed=makeEmbed(title='Pong!', colour=4895220), ephemeral=True)
 ```
 Her har vi definert at meldingen skal bli vist som en embed, og vil ha en farge med verdi 4895220 (48 rød, 95 grønn, 220 blå). Den vil se slik ut.
 
