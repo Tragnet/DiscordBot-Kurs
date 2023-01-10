@@ -33,3 +33,4 @@ Du kan også ta i bruk en [API (cataas.com)](https://cataas.com/#/) for denne op
 >**Note**
 > Det kan være lurt å ta i bruk "Random" biblioteket for denne oppgaven. Dette biblioteket er innebygd i Python installasjonen din så du trenger bare å importere det.
 
+[![image](https://img.shields.io/badge/back-Forrige%20Side-red?style=for-the-badge&logo=python&logoColor=yellow)](https://github.com/Tragnet/DiscordBot-Kurs/tree/1.7-Nedkj%C3%B8ling-av-kommandoer)    
