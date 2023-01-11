@@ -37,6 +37,8 @@ Du kan også ta i bruk en [API (cataas.com)](https://cataas.com/#/) for denne op
     <summary>Løsningsforslag med Random-biblioteket</summary>
 
 Husk å importere "Random" i toppen av python-dokumentet ditt! `import random`
+>**Note**
+> Du vil kanskje få mange like bilder på rad, dette avhenger av mengden bilder du har å velge mellom.
 
 ```py
 
